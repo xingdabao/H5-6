@@ -35,28 +35,34 @@
         
         .pic1 {
             transform: translate(-10px, 10px) rotate(5deg);
+            transition: transform 1s linear;
         }
         
         .pic2 {
-            transform: rotate(-10deg) scaleX(0.8)
+            transform: rotate(-10deg) scaleX(0.8);
+            transition: transform 1s linear;
         }
         
         .pic3 {
             transform: rotate(10deg);
+            transition: transform 1s linear;
         }
         
         .pic4 {
             transform: rotate(-10deg);
             transform-origin: top left;
+            transition: transform 1s linear;
         }
         
         .pic5 {
             transform: rotate(10deg);
             transform-origin: bottom left;
+            transition: transform 1s linear;
         }
         
         .pic6 {
             transform: rotate(5deg) scale(1.2, 1.2);
+            transition: transform 1s linear;
         }
         
         [class ^='pic']:hover {
